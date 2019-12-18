@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>index for the system</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link href="./images/汇世学习.png" type="image/x-icon" rel="shortcut icon">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./bootstrap//js/bootstrap.js"></script>
+    <style>
+    .main{
+        margin-top: 10em;
+        width: 100%;
+    }
+    body{
+        background-color: #f8f9fa;
+        color: #005fbe;
+    }
+    </style>
+</head>
+
+<body class="text-center">
+    <div class="clearfix">
+        <div class="container">
+            <nav class="navbar fixed-top navbar-expand-md navbar-light" style="background-color:#f8f9fa">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/汇世学习.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    汇世管理
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">首页<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">课程管理</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"></a>
+                        </li>
+                    </ul>
+                    <form class="form-inline ml-3 mt-md-0">
+                        <div class="dropdown">
+                            <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                登入
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="login.html">登入</a>
+                                <a class="dropdown-item" href="./adminControlView/adminLogin.html">管理员登入</a>
+                            </div>
+                        </div>
+                        <!-- <a href="./login.html" class="btn btn-outline-primary my-2 my-sm-0">登入</a> -->
+                        <a href="./userControlView/userReg.html" class="btn btn-outline-primary my-sm-0"
+                            style="margin-left: 5px;">注册</a>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <div class="container main">
+                <h1 class="cover-heading">轻便的管理平台</h1>
+                <p class="lead">一个轻量化的课程选择平台</p>
+                <p class="lead">
+                  <a href="#" class="btn btn-lg btn-outline-primary">了解更多</a>
+                </p>
+            </div>
+    </div>
+    <footer class="container fixed-bottom">
+        <p class="float-right"><a href="#">回到顶部</a></p>
+        <p>© 2019 汇世管理.Huishi Management All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>

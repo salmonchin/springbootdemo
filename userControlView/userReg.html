@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="../css/regStyle.css">
+    <link href="../images/汇世学习.png" type="image/x-icon" rel="shortcut icon">
+    <title>userReg</title>
+</head>
+
+<body>
+    <div class="container clearfix">
+        <form action="" method="POST" class="form-signin" enctype="multipart/form-data">
+            <div style="text-align: center;">
+                <img class="mb-4 text-center" src="../images/汇世学习.png" alt="" width="72" height="72">
+            </div>
+            <h3 class="mb-3 font-weight-normal text-center">注册
+            </h3>
+            <div class="form-group">
+                    <label for="inputTxt" class="sr-only">用户名</label>
+                    <input type="text" id="inputTxt" class="inputLogin form-control" placeholder="用户名" required>
+                </div>
+            <div class="form-group">
+                <label for="inputEmail" class="sr-only">电子邮箱</label>
+                <input type="email" id="inputEmail" class="inputLogin form-control" placeholder="电子邮箱地址" required>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword" class="sr-only">密码</label>
+                <input type="password" id="inputPassword" class="inputLogin form-control" placeholder="密码" required="">
+            </div>
+            <div class="form-group">
+                <label>性别</label>
+                <input type="radio" name="gender" value="1" checked>男
+                <input type="radio" name="gender" value="0" checked>女
+            </div>
+            <div class="form-group">
+                <label>头像</label>
+                <input type="file" name="pic" required="required">
+            </div>
+            <div class="form-group">
+                <input type="submit" value="注册" class="btn btn-hs-primary btn-block">
+                <input type="reset" value="重置" class="btn btn-outline-danger btn-block">
+            </div>
+            <footer class="container">
+                    <p class="float-right mr-4"><a href="../index.html">回到首页</a></p>
+                    <p class="mt-5 mb-3 text-muted">© 2019 汇世管理</p>
+                </footer>
+        </form>
+    </div>
+</body>
+
+</html>
